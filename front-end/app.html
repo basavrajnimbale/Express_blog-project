@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <h2>Create a New Blog Post</h2>
+    <div class="'container">
+        <form id="user-post" action="http://localhost:3000/add-blog" method="post">
+            <lable for="title">Blog Title</lable><br>
+            <input type="text" id="title" name="blogtitle"><br>
+            <lable for="author">Blog Author</lable><br>
+            <input type="text" id="author" name="blogauthor"><br>
+            <lable for="content">Blog Content</lable><br>
+            <input type="text" id="content" name="blogcontent"><br>
+            <button id="submit" type="submit">Sumbit</button>
+        </form>
+        <ul id="post-list"></ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>
