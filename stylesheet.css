@@ -1,0 +1,45 @@
+.container-left {
+    background-color: blue;
+    width : 350px;
+    height : 450px; 
+    float:left
+}
+
+.box {
+    background-color: orange;
+    text-align: center;
+    width: 310px;
+    height: 30px;
+}
+
+.firstLi {
+    background-color: black;
+    color: red;
+    margin-left: 35rem;
+    width: 450px;
+    /* height: 30px; */
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    /* width : fit-content; */
+}
+
+.button {
+    margin-left: 20rem;
+    color: red;
+}
+
+.commentButton {
+    margin-left: 25rem;
+    color: red;
+}
+
+/*.expand {
+    background-color: black;
+    width : fit-content;
+    height : 450px;
+    color: white;
+}
+.firstLi {
+    background-color: black;
+    margin-left: 35rem;
+}
